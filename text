@@ -1,0 +1,472 @@
+Last login: Tue Jun 13 22:00:14 on ttys000
+You have mail.
+-bash: bash_env: command not found
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit <https://support.apple.com/kb/HT208050>.
+Users-MacBook-Pro:~ garymagill$ brew install mongosh
+Running `brew update --auto-update`...
+==> Fetching dependencies for mongosh: brotli, c-ares, icu4c, libnghttp2, libuv, ca-certificates, openssl@1.1 and node@16
+==> Fetching brotli
+==> Downloading <https://ghcr.io/v2/homebrew/core/brotli/manifests/1.0.9>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:ed4f61a9dc1>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching c-ares
+==> Downloading <https://ghcr.io/v2/homebrew/core/c-ares/manifests/1.19.1>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/c-ares/blobs/sha256:504f6347444>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching icu4c
+==> Downloading <https://ghcr.io/v2/homebrew/core/icu4c/manifests/72.1>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:ecb91e87e3e4>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching libnghttp2
+==> Downloading <https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.54.0>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:6af7160>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching libuv
+==> Downloading <https://ghcr.io/v2/homebrew/core/libuv/manifests/1.45.0>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:ec3005a9949d>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching ca-certificates
+==> Downloading <https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023->
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:f6>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching openssl@1.1
+==> Downloading <https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1u>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:f0a7ff>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching node@16
+==> Downloading <https://ghcr.io/v2/homebrew/core/node/16/manifests/16.20.0>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/node/16/blobs/sha256:4ed39f7d3d>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Fetching mongosh
+==> Downloading <https://ghcr.io/v2/homebrew/core/mongosh/manifests/1.10.0>
+######################################################################### 100.0%
+==> Downloading <https://ghcr.io/v2/homebrew/core/mongosh/blobs/sha256:05ffcb9c04>
+==> Downloading from <https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh>
+######################################################################### 100.0%
+==> Installing dependencies for mongosh: brotli, c-ares, icu4c, libnghttp2, libuv, ca-certificates, openssl@1.1 and node@16
+==> Installing mongosh dependency: brotli
+==> Pouring brotli--1.0.9.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/brotli/1.0.9: 25 files, 2.3MB
+==> Installing mongosh dependency: c-ares
+==> Pouring c-ares--1.19.1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/c-ares/1.19.1: 87 files, 661KB
+==> Installing mongosh dependency: icu4c
+==> Pouring icu4c--72.1.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/icu4c/72.1: 263 files, 77.8MB
+==> Installing mongosh dependency: libnghttp2
+==> Pouring libnghttp2--1.54.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libnghttp2/1.54.0: 13 files, 714.5KB
+==> Installing mongosh dependency: libuv
+==> Pouring libuv--1.45.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/libuv/1.45.0: 47 files, 3MB
+==> Installing mongosh dependency: ca-certificates
+==> Pouring ca-certificates--2023-05-30.ventura.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2023-05-30: 3 files, 216.2KB
+==> Installing mongosh dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1u.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1u: 8,101 files, 18.5MB
+==> Installing mongosh dependency: node@16
+==> Pouring node@16--16.20.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/node@16/16.20.0: 1,890 files, 49.4MB
+==> Installing mongosh
+==> Pouring mongosh--1.10.0.ventura.bottle.tar.gz
+🍺  /usr/local/Cellar/mongosh/1.10.0: 9,732 files, 47.5MB
+==> Running `brew cleanup mongosh`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Users-MacBook-Pro:~ garymagill$ mongosh "mongodb+srv://mongopractice.zp13odz.mongodb.net/" --apiVersion 1 --username garymagill22
+Enter password: ****
+Current Mongosh Log ID: 648b4d61e01f372cad4d8c1c
+Connecting to:  mongodb+srv://<credentials>@mongopractice.zp13odz.mongodb.net/?appName=mongosh+1.10.0
+Using MongoDB:  6.0.6 (API Version 1)
+Using Mongosh:  1.10.0
+
+For mongosh info see: <https://docs.mongodb.com/mongodb-shell/>
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (<https://www.mongodb.com/legal/privacy-policy>).
+You can opt-out by running the disableTelemetry() command.
+
+Atlas atlas-zi0wc6-shard-0 [primary] test>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+Atlas atlas-zi0wc6-shard-0 [primary] test>
+Users-MacBook-Pro:~ garymagill$ mongo
+-bash: mongo: command not found
+Users-MacBook-Pro:~ garymagill$ mongosh
+Current Mongosh Log ID: 648b4e813d8cf090b56e06fb
+Connecting to:  mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.0
+MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27017
+Users-MacBook-Pro:~ garymagill$ mongosh "mongodb+srv://mongopractice.zp13odz.mongodb.net/" --apiVersion 1 --username garymagill22
+Enter password: ****
+Current Mongosh Log ID: 648b4f31736ae8c0948fd1ff
+Connecting to:  mongodb+srv://<credentials>@mongopractice.zp13odz.mongodb.net/?appName=mongosh+1.10.0
+Using MongoDB:  6.0.6 (API Version 1)
+Using Mongosh:  1.10.0
+
+For mongosh info see: <https://docs.mongodb.com/mongodb-shell/>
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.createCollection("first_Mongo_Schema")
+{ ok: 1 }
+Atlas atlas-zi0wc6-shard-0 [primary] test> show dbs
+test     8.00 KiB
+admin  288.00 KiB
+local   24.31 GiB
+Atlas atlas-zi0wc6-shard-0 [primary] test> use test
+already on db test
+Atlas atlas-zi0wc6-shard-0 [primary] test> show collections
+first_Mongo_Schema
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.createCollection("students")
+{ ok: 1 }
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.insertOne({name:"Tiger",home_state:"Florida",lucky_number: 22,birthday:{month: 11, day:1,year: 1962} })
+{
+  acknowledged: true,
+  insertedId: ObjectId("648b5842736ae8c0948fd200")
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.insertOne({name:"Gary", home_state: "PA", lucky_number: 23, birthday:{month: 11, day: 14, year: 1990}})
+{
+  acknowledged: true,
+  insertedId: ObjectId("648b58dd736ae8c0948fd201")
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.insertOne({name:"Matthew", home_state: "Boston", lucky_number: 13, birthday: {month: 12, day: 20, year: 1991} })
+{
+  acknowledged: true,
+  insertedId: ObjectId("648b5927736ae8c0948fd202")
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.insertOne({name: "Butkus", home_state: "Colorado", lucky_number: 45, birthday: {month: 3, day: 3, year: 1992}})
+{
+  acknowledged: true,
+  insertedId: ObjectId("648b5965736ae8c0948fd203")
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.insertOne({name: "Frankie", home_state: "Nebraska", lucky_number: 12, birthday: {month: 10, day: 6, year: 2023}})
+{
+  acknowledged: true,
+  insertedId: ObjectId("648b59a0736ae8c0948fd204")
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find()
+[
+  {
+    _id: ObjectId("648b5842736ae8c0948fd200"),
+    name: 'Tiger',
+    home_state: 'Florida',
+    lucky_number: 22,
+    birthday: { month: 11, day: 1, year: 1962 }
+  },
+  {
+    _id: ObjectId("648b58dd736ae8c0948fd201"),
+    name: 'Gary',
+    home_state: 'PA',
+    lucky_number: 23,
+    birthday: { month: 11, day: 14, year: 1990 }
+  },
+  {
+    _id: ObjectId("648b5927736ae8c0948fd202"),
+    name: 'Matthew',
+    home_state: 'Boston',
+    lucky_number: 13,
+    birthday: { month: 12, day: 20, year: 1991 }
+  },
+  {
+    _id: ObjectId("648b5965736ae8c0948fd203"),
+    name: 'Butkus',
+    home_state: 'Colorado',
+    lucky_number: 45,
+    birthday: { month: 3, day: 3, year: 1992 }
+  },
+  {
+    _id: ObjectId("648b59a0736ae8c0948fd204"),
+    name: 'Frankie',
+    home_state: 'Nebraska',
+    lucky_number: 12,
+    birthday: { month: 10, day: 6, year: 2023 }
+  }
+]
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find({home_state: "Tiger" })
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find({home_state: "California", "Washington"})
+Uncaught:
+SyntaxError: Unexpected token (1:56)
+
+> 1 | db.students.find({home_state: "California", "Washington"})
+    |                                                         ^
+  2 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find({home_state: "California"})
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find({home_state: "PA"})
+[
+  {
+    _id: ObjectId("648b58dd736ae8c0948fd201"),
+    name: 'Gary',
+    home_state: 'PA',
+    lucky_number: 23,
+    birthday: { month: 11, day: 14, year: 1990 }
+  }
+]
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find({lucky_number: {$gt: 3}})
+[
+  {
+    _id: ObjectId("648b5842736ae8c0948fd200"),
+    name: 'Tiger',
+    home_state: 'Florida',
+    lucky_number: 22,
+    birthday: { month: 11, day: 1, year: 1962 }
+  },
+  {
+    _id: ObjectId("648b58dd736ae8c0948fd201"),
+    name: 'Gary',
+    home_state: 'PA',
+    lucky_number: 23,
+    birthday: { month: 11, day: 14, year: 1990 }
+  },
+  {
+    _id: ObjectId("648b5927736ae8c0948fd202"),
+    name: 'Matthew',
+    home_state: 'Boston',
+    lucky_number: 13,
+    birthday: { month: 12, day: 20, year: 1991 }
+  },
+  {
+    _id: ObjectId("648b5965736ae8c0948fd203"),
+    name: 'Butkus',
+    home_state: 'Colorado',
+    lucky_number: 45,
+    birthday: { month: 3, day: 3, year: 1992 }
+  },
+  {
+    _id: ObjectId("648b59a0736ae8c0948fd204"),
+    name: 'Frankie',
+    home_state: 'Nebraska',
+    lucky_number: 12,
+    birthday: { month: 10, day: 6, year: 2023 }
+  }
+]
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateMany({},{$set: {interests: ["coding", "brunch", "MongoDB"]}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 5,
+  modifiedCount: 5,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find()
+[
+  {
+    _id: ObjectId("648b5842736ae8c0948fd200"),
+    name: 'Tiger',
+    home_state: 'Florida',
+    lucky_number: 22,
+    birthday: { month: 11, day: 1, year: 1962 },
+    interests: [ 'coding', 'brunch', 'MongoDB' ]
+  },
+  {
+    _id: ObjectId("648b58dd736ae8c0948fd201"),
+    name: 'Gary',
+    home_state: 'PA',
+    lucky_number: 23,
+    birthday: { month: 11, day: 14, year: 1990 },
+    interests: [ 'coding', 'brunch', 'MongoDB' ]
+  },
+  {
+    _id: ObjectId("648b5927736ae8c0948fd202"),
+    name: 'Matthew',
+    home_state: 'Boston',
+    lucky_number: 13,
+    birthday: { month: 12, day: 20, year: 1991 },
+    interests: [ 'coding', 'brunch', 'MongoDB' ]
+  },
+  {
+    _id: ObjectId("648b5965736ae8c0948fd203"),
+    name: 'Butkus',
+    home_state: 'Colorado',
+    lucky_number: 45,
+    birthday: { month: 3, day: 3, year: 1992 },
+    interests: [ 'coding', 'brunch', 'MongoDB' ]
+  },
+  {
+    _id: ObjectId("648b59a0736ae8c0948fd204"),
+    name: 'Frankie',
+    home_state: 'Nebraska',
+    lucky_number: 12,
+    birthday: { month: 10, day: 6, year: 2023 },
+    interests: [ 'coding', 'brunch', 'MongoDB' ]
+  }
+]
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf" })
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:70)
+
+> 1 | db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf" })
+    |                                                                       ^
+  2 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"})
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:69)
+
+> 1 | db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"})
+    |                                                                      ^
+  2 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"}
+... db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"}
+Uncaught:
+SyntaxError: Unexpected token, expected "," (2:0)
+
+  1 | db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"}
+> 2 | db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"}
+    | ^
+  3 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"} db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"})
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:70)
+
+> 1 | db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"} db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"})
+    |                                                                       ^
+  2 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"})
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:69)
+
+> 1 | db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"})
+    |                                                                      ^
+  2 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"});
+Uncaught:
+SyntaxError: Unexpected token, expected "," (1:69)
+
+> 1 | db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"});
+    |                                                                      ^
+  2 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Gary"}, {$addToSet: {interests: "Golf"}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Tiger"}, {$addToSet: {interests: "Winning"}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Frankier"}, {$addToSet: {interests: "Pooping"}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 0,
+  modifiedCount: 0,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Frankie"}, {$addToSet: {interests: "Pooping"}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Butkus"}, {$addToSet: {interests: "Cuddling"}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Matthew"}, {$addToSet: {interests: "Taxes"}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Matthew"}, {$pull: {interests: "Taxes}});
+Uncaught:
+SyntaxError: Unterminated string constant. (1:61)
+
+> 1 | db.students.updateOne({name: "Matthew"}, {$pull: {interests: "Taxes}});
+    |                                                              ^
+  2 |
+
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.updateOne({name: "Matthew"}, {$pull: {interests: "Taxes"}});
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.find()
+[
+  {
+    _id: ObjectId("648b5842736ae8c0948fd200"),
+    name: 'Tiger',
+    home_state: 'Florida',
+    lucky_number: 22,
+    birthday: { month: 11, day: 1, year: 1962 },
+    interests: [ 'coding', 'brunch', 'MongoDB', 'Winning' ]
+  },
+  {
+    _id: ObjectId("648b58dd736ae8c0948fd201"),
+    name: 'Gary',
+    home_state: 'PA',
+    lucky_number: 23,
+    birthday: { month: 11, day: 14, year: 1990 },
+    interests: [ 'coding', 'brunch', 'MongoDB', 'Golf' ]
+  },
+  {
+    _id: ObjectId("648b5927736ae8c0948fd202"),
+    name: 'Matthew',
+    home_state: 'Boston',
+    lucky_number: 13,
+    birthday: { month: 12, day: 20, year: 1991 },
+    interests: [ 'coding', 'brunch', 'MongoDB' ]
+  },
+  {
+    _id: ObjectId("648b5965736ae8c0948fd203"),
+    name: 'Butkus',
+    home_state: 'Colorado',
+    lucky_number: 45,
+    birthday: { month: 3, day: 3, year: 1992 },
+    interests: [ 'coding', 'brunch', 'MongoDB', 'Cuddling' ]
+  },
+  {
+    _id: ObjectId("648b59a0736ae8c0948fd204"),
+    name: 'Frankie',
+    home_state: 'Nebraska',
+    lucky_number: 12,
+    birthday: { month: 10, day: 6, year: 2023 },
+    interests: [ 'coding', 'brunch', 'MongoDB', 'Pooping' ]
+  }
+]
+Atlas atlas-zi0wc6-shard-0 [primary] test> db.students.deleteOne({_id: ObjectId("648b5927736ae8c0948fd202")})
+{ acknowledged: true, deletedCount: 1 }
+Atlas atlas-zi0wc6-shard-0 [primary] test>
